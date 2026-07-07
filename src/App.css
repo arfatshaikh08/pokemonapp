@@ -1,0 +1,144 @@
+html,body,#root{
+    margin:0;
+
+    min-height:100vh;
+}
+
+.App{
+    width:100%;
+min-height:100%;    background-color:rgb(0, 64, 120) ;
+    align-items: center;
+    text-align: center;
+    gap:6px;
+    display:flex;
+}
+.App-header{    min-height:100vh;
+    width: 100%;
+}
+.PokeLogo{
+    color:  rgb(255, 196, 0);
+    border-color:rgb(0, 64, 120)  ;
+}
+.SearchContainer{
+    width: 100%;
+    display: flex;
+      justify-content:center;
+    background-color: whitesmoke;
+    border-radius: 16;
+    padding:10px
+  
+}
+.PokemonList{
+    width:100%;
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    gap: 5px;
+}
+.PokemonCard{
+    font-weight:bold;
+    text-transform: capitalize;
+    width: 150px;
+    background-color: antiquewhite;
+    border-radius: 16px;
+    gap:10px;
+}
+.BtnContainer{
+    display: flex;
+        justify-content: center;
+padding:10px;
+}
+.PaginationBtns{
+    background-color: rgb(255, 196, 0);
+    color: rgb(0, 64, 120) ;
+    display: flex;
+    border-radius: 16px;
+    padding:10px;
+}
+.TypeBadge{
+    display: inline-block;
+    padding: 4px 10px;
+    margin: 2px;
+    border-radius: 999px;
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+/* Gen 1 Types */
+.normal {
+    background: #A8A77A;
+}
+
+.fire {
+    background: #EE8130;
+}
+
+.water {
+    background: #6390F0;
+}
+
+.electric {
+    background: #F7D02C;
+    color: black;
+}
+
+.grass {
+    background: #7AC74C;
+}
+
+.ice {
+    background: #96D9D6;
+    color: black;
+}
+
+.fighting {
+    background: #C22E28;
+}
+
+.poison {
+    background: #A33EA1;
+}
+
+.ground {
+    background: #E2BF65;
+    color: black;
+}
+
+.flying {
+    background: #A98FF3;
+}
+
+.psychic {
+    background: #F95587;
+}
+
+.bug {
+    background: #A6B91A;
+}
+
+.rock {
+    background: #B6A136;
+}
+
+.ghost {
+    background: #735797;
+}
+
+.dragon {
+    background: #6F35FC;
+}
+
+.dark {
+    background: #705746;
+}
+
+.steel {
+    background: #B7B7CE;
+    color: black;
+}
+
+.fairy {
+    background: #D685AD;
+}
